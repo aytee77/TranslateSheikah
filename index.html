@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Translate Sheikah</title>
+
+    <script src="lib/Angular.js"></script>
+    <script src="js/app.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body ng-app="SheikahApp" ng-controller="SheikahCtrl">
+    <h1>Type in Text which you want to translate to Sheikah</h1>
+    <textarea rows="5" cols="50" ng-model="text" ></textarea>
+    <br />
+    <p id="txtSheikah">{{text}}</p>
+</body>
+</html>

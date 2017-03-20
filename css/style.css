@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'Sheikah';
+    src: url('../font/Sheikah.eot');
+    src: url('../font/Sheikah.woff2') format('woff2'), url('../font/Sheikah.woff') format('woff'), url('../font/Sheikah.ttf') format('truetype'), url('../font/Sheikah.svg#../font/Sheikah') format('svg'), url('../font/Sheikah.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, body{
+    font-family: Arial;
+}
+
+h1{
+    text-align:center;
+}
+
+#txtSheikah{
+    font-family: Sheikah;
+    text-align:center;
+}
+textarea{
+    border-radius: 5px;
+    border: 1px solid gray;
+    margin: 40px auto 20px;
+    display:block;
+    font-family: Arial;
+    padding: 20px;
+}
